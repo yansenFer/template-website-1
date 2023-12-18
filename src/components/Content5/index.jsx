@@ -2,9 +2,9 @@ import gambar6 from "../../assets/gambar6.png"
 
 const Content5 = () => {
   return (
-    <div className="h-[1080px] mt-20 mx-[165px] justify-center flex flex-col relative">
+    <div className="h-[1080px] mt-20 xl:mx-[165px] lg:mx-[100px] md:mx-[50px] sm:px-2 px-2 justify-center flex flex-col relative">
       <div className="flex flex-row justify-between items-center">
-        <div className="w-full flex">
+        <div className="w-full xl:flex lg:flex md:flex sm:flex hidden">
           <img src={gambar6} alt="gambar2" />
         </div>
         <div className="flex flex-col max-w-screen-md gap-5">

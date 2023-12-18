@@ -5,11 +5,12 @@ import Content3 from "./components/Content3"
 import Content4 from "./components/Content4"
 import Content5 from "./components/Content5"
 import Content6 from "./components/Content6"
+import Footer from "./components/Footer"
 import Navbar from "./components/Navbar"
 
 function App() {
   return (
-    <div className="flex relative flex-col">
+    <div className="flex relative flex-col w-full">
       <Navbar />
       <Content1 />
       <Content2 />
@@ -17,6 +18,7 @@ function App() {
       <Content4 />
       <Content5 />
       <Content6 />
+      <Footer />
     </div>
   )
 }
